@@ -1,4 +1,6 @@
 # Uncertainty-Guided Conservative Propagation for Structured Inference in Vessel Segmentation
+[![arXiv](https://img.shields.io/badge/arXiv-2605.20543-b31b1b)](https://arxiv.org/abs/2605.20543)
+[![MICCAI](https://img.shields.io/badge/MICCAI-2026-blue)](https://papers.miccai.org/miccai-2026/1104-Paper3907.html)
 
 Official code for **Uncertainty-Guided Conservative Propagation for Structured
 Inference in Vessel Segmentation**.
@@ -128,14 +130,26 @@ python FLOPs.py --mode all
 
 ## Citation
 
-If you find UGCP or the provided experimental pipeline
-useful in your research, please cite our work:
+If you find UGCP or the provided experimental pipeline useful
+in your research, please cite our work:
 
 ```bibtex
 @article{huang2026ugcp,
   title={Uncertainty-Guided Conservative Propagation for Structured Inference in Vessel Segmentation},
   author={Huang, Huan and Esposito, Michele and Zhao, Chen},
   journal={arXiv preprint arXiv:2605.20543},
+  year={2026}
+}
+```
+
+An earlier version of UGCP for coronary artery segmentation
+was presented at [MICCAI 2026](https://papers.miccai.org/miccai-2026/1104-Paper3907.html).
+
+```bibtex
+@inproceedings{huang2026ugcp_miccai,
+  title={Uncertainty-Guided Conservative Propagation for Coronary Artery Segmentation},
+  author={Huang, Huan and Xu, Zhihui and Esposito, Michele and Zhao, Chen},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
   year={2026}
 }
 ```
