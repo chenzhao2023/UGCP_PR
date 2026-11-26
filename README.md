@@ -125,3 +125,17 @@ python FLOPs.py --mode 3d
 python FLOPs.py --mode 2d
 python FLOPs.py --mode all
 ```
+
+## Citation
+
+If you find UGCP or the provided experimental pipeline
+useful in your research, please cite our work:
+
+```bibtex
+@article{huang2026ugcp,
+  title={Uncertainty-Guided Conservative Propagation for Structured Inference in Vessel Segmentation},
+  author={Huang, Huan and Esposito, Michele and Zhao, Chen},
+  journal={arXiv preprint arXiv:2605.20543},
+  year={2026}
+}
+```
